@@ -11,3 +11,4 @@ function high(x) {
   return oneWord[newArr.indexOf(Math.max.apply(null, newArr))]
 }
 
+console.log(high('man i need a taxi up to ubud'))
