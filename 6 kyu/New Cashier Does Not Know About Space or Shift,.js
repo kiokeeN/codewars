@@ -30,4 +30,3 @@ function getOrder(input) {
   })
   return finalRes.map(x => x.charAt(0).toUpperCase() + x.slice(1)).join(' ')
 }
-console.log(getOrder('milkshakepizzachickenfriescokeburgerpizzasandwichmilkshakepizza'))
